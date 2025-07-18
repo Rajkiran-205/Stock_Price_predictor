@@ -3,7 +3,7 @@ This project is a stock price prediction application that leverages an XGBoost m
 
 In addition to the prediction application, this repository includes a comprehensive Jupyter Notebook that details the entire data science workflow, from initial data exploration and cleaning to feature engineering and model tuning.
 
-Features
+## Features
 Stock Price Prediction: Estimates the closing price of a stock using an XGBoost model.
 
 Interactive Web App: A simple and intuitive user interface created with Streamlit.
@@ -22,7 +22,7 @@ Technical indicators (placeholders in the app, but part of the model)
 
 In-depth Analysis: The accompanying Jupyter Notebook provides a thorough walkthrough of the data analysis, feature engineering, and model comparison process.
 
-Data Science Workflow (stock_pred_xgboost.ipynb)
+## Data Science Workflow (stock_pred_xgboost.ipynb)
 The Jupyter Notebook documents the following key stages of the project:
 
 Data Loading and Initial Exploration: Importing the necessary datasets (prices-split-adjusted.csv, fundamentals.csv, securities.csv) and performing an initial assessment of their structure and content.
@@ -37,18 +37,18 @@ Model Building and Evaluation: Training and evaluating both a baseline Linear Re
 
 Model Tuning: Using GridSearchCV to find the optimal hyperparameters for the XGBoost model to improve its predictive performance.
 
-Installation
+## Installation
 To run this project locally, please ensure you have Python installed. Then, install the required libraries using pip:
 
 pip install streamlit pandas numpy scikit-learn xgboost pmdarima joblib
 
-Usage
+## Usage
 Clone the repository:
 
 git clone <repository-url>
 cd <repository-directory>
 
-Run the Streamlit application:
+## Run the Streamlit application:
 Make sure the following files are in the same directory as app.py:
 
 xgb_stock_predictor.joblib
@@ -74,7 +74,7 @@ Prediction App (app.py): The web application uses a pre-trained XGBoost model (x
 
 Model Development (stock_pred_xgboost.ipynb): The notebook details the development and tuning of the XGBoost model, which was selected for its ability to handle complex, non-linear relationships in financial data.
 
-Files in this Repository
+## Files in this Repository
 app.py: The main file for the Streamlit web application.
 
 stock_pred_xgboost.ipynb: A Jupyter Notebook containing the complete data analysis and model development process.
